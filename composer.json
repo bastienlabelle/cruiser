@@ -1,0 +1,22 @@
+{
+    "name" : "bastienlabelle/cruiser",
+    "type" : "library",
+    "description" : "PHP Framework",
+    "licence" : "unlicence",
+    "authors": [
+        {
+            "name" : "Bastien Labelle",
+            "email" : "hello@bastienlabelle.fr",
+            "homepage" : "http://bastienlabelle.fr",
+            "role" : "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "phroute/phroute" : ">=2.1",
+        "monolog/monolog" : "^1.21"
+    },
+    "autoload" : {
+        "psr-4": { "Cruiser\\" : "src/Cruiser" }
+    }
+}
