@@ -14,9 +14,10 @@
     "require" : {
         "php" : ">=5.3.0",
         "phroute/phroute" : ">=2.1",
-        "monolog/monolog" : "^1.21"
+        "monolog/monolog" : "^1.21",
+        "filp/whoops" : "2.*"
     },
     "autoload" : {
-        "psr-4": { "Cruiser\\" : "src/Cruiser" }
+        "psr-4": { "Cruiser\\" : "src/Cruiser/" }
     }
 }
